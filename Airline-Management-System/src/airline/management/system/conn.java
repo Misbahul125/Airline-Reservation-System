@@ -7,8 +7,9 @@ public class conn{
     Statement s;
     public conn(){  
         try{  
-            Class.forName("com.mysql.jdbc.Driver");  
-            c = DriverManager.getConnection("jdbc:mysql:///project4","root","");    
+            //Class.forName("com.mysql.jdbc.Driver");  
+            Class.forName("oracle.jdbc.driver.OracleDriver");  
+            c = DriverManager.getConnection("jdbc:orale:thin:@localhost:1521:xe","System","oracle");    
             s =c.createStatement(); 
            
           
