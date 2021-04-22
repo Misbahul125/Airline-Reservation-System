@@ -1,8 +1,6 @@
 package airline.management.system;
 
 import java.awt.EventQueue;
-
-
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
